@@ -23,15 +23,17 @@ main {
     position: relative;
 }
 
+/* Inicío das Configurações do iframe dentro da tela do celúlar */
 section#telefone {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
-    width: 311px;
+    height:  635px;;
+    width: 310px;
     background: url('../imagens/frame-iphone.png') no-repeat;
+    background-size: cover;
 }
 
 
@@ -39,9 +41,11 @@ iframe#tela {
     position: relative;
     top: 80px;
     left: 22px;
-    width: 268px;
-    height: 472px;
+    width: 274px;
+    height: 484px;
 }
+
+/* Fim das Configurações do iframe dentro da tela do celúlar */
 
 section#redes-socias {
     text-align: right;
